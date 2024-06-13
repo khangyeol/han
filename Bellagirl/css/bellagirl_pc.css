@@ -147,7 +147,7 @@ nav{
 
 }
 .gnb>li:hover{
-    color: #ffabab;
+    color: #000000;
 }
 .gnb>li>a{
     font-weight: 900;
@@ -176,7 +176,7 @@ nav{
 }
 .gnb>li>ul a:hover{
     color: #ffffff;
-    background: rgb(252, 124, 92);
+    background: rgb(255, 199, 185);
 }
 
 
@@ -516,16 +516,18 @@ button:hover{
 /* s6 */
 
 .inner_s6{
-width: 100%;
-max-width: fit-content;
-margin:0 auto;
-text-align: center;
+    width: 100%;
+    max-width: fit-content;
+    margin:0 auto;
+    text-align: center;
+    line-height: 0;
 }
 .summer{
     font-size:105px;
     font-weight: 700;
     font-family: 'billie';
-    letter-spacing:6px
+    letter-spacing:6px;
+    line-height: 113px;
 }
 .what{
     display: flex;
@@ -533,12 +535,12 @@ text-align: center;
     font-size: 25px;
     font-weight: 600;
     font-family: 'billie';
-    line-height: 0px;
+    line-height: 30px;
 }
 
 /* footer */
 footer{
-    height: 1200px;
+    height: 1000px;
 }
 .footer_width{
     width: 1200px;
@@ -613,6 +615,7 @@ footer{
 }
 
 
+
 /* sub_s1 */
 .sub_s1{
     margin: 0 auto;
@@ -639,5 +642,45 @@ footer{
 }
 /* sub_s3 */
 .sub_s3{
+    height: 980px;
+}
 
+.sub_s4{
+  height: 700px;
+}
+
+.sub_s4 .inner_content{
+  position: relative;
+  height: 100%;
+
+}
+.sub_s4 .inner_content{
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0 auto;
+  padding: 0;
+}
+.sub_s4 .swiper {
+  width: 100%;
+  height: 100%;
+}
+.sub_s4 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub_s4 .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* sub_s5 */
+.sub_s5{
+    height: 800px;
 }

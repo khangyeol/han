@@ -13,7 +13,7 @@ $(document).ready(function(){
 
     $(function(){
 
-        //슬라이드 효과
+        //메인페이지 슬라이드 효과
         let count = 0
         $(".btn_next").click(function(event){
             event.preventDefault()
@@ -59,7 +59,7 @@ $(document).ready(function(){
             })
         })
 
-        //픽스드 메뉴 사라졌다가 나타나게 하기
+        //fixed menu 사라졌다가 나타나게 하기
         window.addEventListener('scroll', function() {
             var box = document.querySelector('.fixed_menu');
             var scrollPosition = window.scrollY;
@@ -70,5 +70,13 @@ $(document).ready(function(){
               box.style.top = '-2000px'; // 다시 숨김
             }
         });
+
+        //서브페이지 이미지 슬라이드
+        var swiper = new Swiper(".sub_s4_slide", {
+            scrollbar: {
+              el: ".swiper-scrollbar",
+              hide: true,
+            },
+          });
 
 })
