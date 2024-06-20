@@ -8,33 +8,203 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/chevrolet.css">
+    <link rel="stylesheet" href="./css/slideable.css">
     <script src="./js/jquery-1.12.3.js"></script>
     <script src="./js/chevrolet.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="./js/slideable.js"></script>
+        <script src="./js/sideGnbCar.js"></script>
 </head>
 <body>
+    <!-- <button class="top_open_btn">Catalog</button> -->
+    <div class="sideGnb">
+    <div class="sideGnbTop">
+        <ul class="sideGnbMenu">
+        <li><a href="./detail_car.html">차량</a></li>
+        <li><a href="./sub1.html">온라인구매</a></li>
+        <li><a href="./sub2.html">서비스</a></li>
+        <li><a href="./sub3.html">브랜드</a></li>
+        <li><a href="./detail_car.html">EV LIFE</a></li>
+        </ul>
+        <button class="top_close_btn">CLOSE</button>
+    </div>
+    <div class="sideGnbMain">
+        <section class="sideMainLeft">
+        <ul class="left1">
+            <li class="on">SUV</li>
+            <li>CUV</li>
+            <li>TRUCK</li>
+        </ul>
+        <ul class="left2">
+            <li>
+            <p>온라인샵</p>
+            <span class="left2_arrow">❯</span>
+            </li>
+            <li>
+            <p>견적 상담 신청</p>
+            <span class="left2_arrow">❯</span>
+            </li>
+            <li>
+            <p>시승 상담 신청</p>
+            <span class="left2_arrow">❯</span>
+            </li>
+            </li>
+        </ul>
+        </section>
+        <section class="sideMainRight">
+        <ul class="right1">
+            <li>
+            <img src="./img/suv_trailblazer.png" alt="suv 트레일블레이저">
+            <p>TRAILBLAZER</p>
+            </li>
+            <li>
+            <img src="./img/suv_taho.png" alt="suv 타호">
+            <p>TAHO</p>
+            </li>
+            <li>
+            <img src="./img/suv_traverse.png" alt="suv 트래버스">
+            <p>TRAVERSE</p>
+            </li>
+        </ul>
+        </section>
+    </div>
+    <div class="sideGnbBottom">
+        <form action="#">
+        <input type="text" value="Search CHEVROLET Korea">
+        </form>
+        <!-- <img src="./img/search_icon.png" alt="돋보기 아이콘"> -->
+    </div>
+    </div>
     <header>
         <div class="logo">
-            <a href="#"><img src="./img/logo.png" alt="쉐보레 로고"></a>
+            <a href="./main.html"><img src="./img/logo.png" alt="쉐보레 로고"></a>
         </div>
         <ul class="gnb">
-            <li><a href="#">차량</a></li>
-            <li><a href="./index.html">온라인구매</a></li>
-            <li><a href="./sub.html">서비스</a></li>
-            <li><a href="#">브랜드</a></li>
+            <li><a href="">차량</a></li>
+            <li><a href="./sub1.html">온라인구매</a></li>
+            <li><a href="./sub2.html">서비스</a></li>
+            <li><a href="./sub3.html">브랜드</a></li>
             <li><a href="#">쉐보레 NOW</a></li>
         </ul>
-        <a href="#">Catalog<img src="./img/icon6.png" alt="화살표"></a>
+        <a href="#" class="header_open">Catalog<img src="./img/icon6.png" alt="화살표"></a>
     </header>
     <section class="sub3_s1">
         <!-- 영상 -->
+        <video src="./img3/main.mp4" autoplay muted loop poster> </video>
+        <div class="main_text">
+            <p>Find New Roads</p>
+            <h2>TRAX CROSSOVER</h2>
+            <span><a href="./sub2.html">쉐보레 브랜드 STORY</a></span>
+        </div>
     </section>
     <section class="sub3_s2">
         <!-- 이미지  -->
+        <div class="inner_content sub3_s2_in rightToleft">
+            <p>전기차 100년, 당신을 위해, 모두를 위해</p>
+            <h2>오래동안 사람들 곁에서 <br> 함께하고 싶은 자동차를 만듭니다.</h2>
+        </div>
     </section>
     <section class="sub3_s3">
-
+        <div class="inner_content">
+            <h3>CHEVROLET STORY</h3>
+            <ul class="gallery">
+                <li class="on"><img src="./img3/img1.jpg" alt="1"></li>
+                <li><img src="./img3/img5.jpg" alt="2"></li>
+                <li><img src="./img3/img4.jpg" alt="3"></li>
+                <li><img src="./img3/img6.jpg" alt="4"></li>
+                <li><img src="./img3/img7.jpg" alt="5"></li>
+                <li><img src="./img3/img8.jpg" alt="3"></li>
+            </ul>
+        </div>
+    </section>
+    <section class="sub3_s4">
+            <h3>오래동안 사람들 곁에서 <br> 함께하고 싶은 자동차를 만듭니다.</h3>
+    </section>
+    <section class="sub3_s5">
+        <div class="inner_content">
+            <div class="rightToleft">
+            <h3>GLOBAL </h3>
+            <h3>Business</h3>
+            <p>전세계로 뻗어나가는 쉐보레의 행보를 <br> 곁에서 함께하세요.</p>
+            <span><a href="#">보도자료</a></span>
+            <span><a href="#">자료실</a></span>
+            </div>
+            <div class="sub3_s5_li1"> 
+                <ul>
+                    <li>
+                        <a href="#"><img src="./img3/list1.jpg" alt="쉐보레 뉴스 1"></a>
+                        <p>News</p>
+                        <h4>쉐보레, 해외시장 공략 속도 낸다.</h4>
+                        <p>2024-04-12</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./img3/list2.jpg" alt="쉐보레 뉴스 1"></a>
+                        <p>News</p>
+                        <h4>제너럴 모터스, 한국뉴욕주립대와 <br>
+                            산학협력 협약으로 인재양성 <br> 본격 시동!</h4>
+                        <p>2024-04-30</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="sub3_s5_li2">
+                <ul>
+                    <li>
+                        <a href="#"><img src="./img3/list3.jpg" alt="쉐보레 뉴스 1"></a>
+                        <p>News</p>
+                        <h4>GM, 글로벌 커넥티비티 서비스 <br> '온스타' 국내 서비스 본격 개시!</h4>
+                        <p>2024-05-20/p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./img3/list4.jpg" alt="쉐보레 뉴스 1"></a>
+                        <p>News</p>
+                        <h4>GM 한국사업장, 3월 총 <br> 51,388대 판매... <br>
+                            2013년 이후 최대 해외실적 기록!</h4>
+                        <p>2024-06-25</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="sub3_s6">
+        <h3  class="text" id="text">FIND NEW ROADS</h3>
+    </section>
+    <section class="sub3_s7">
+        <div class="inner_content">
+            <section>
+                <div>
+                    <a href="#" class="li1"><img src="./img3/slide1.jpg" alt="횡단보도 이미지"></a>
+                    <a href="#" class="li2"><img src="./img3/slide3.jpg" alt="횡단보도 이미지"></a>
+                </div>
+            </section>
+            <div class="sub3_s7_in rightToleft">
+                <p>전기차 100년, 당신을 위해, 모두를 위해</p>
+                <h2>도로와 사람들을 연결짓는 <br> 쉐보레와 동행하세요.</h2>
+                <p>한국지엠 디자인센터는 쉐보레 스파크, 아베오, 등과 같은 GM의 글로벌 베스트셀링  <br>제품을 선보이는 데 주도적인 역할을 해왔습니다. 디자인센터에는 디자이너와 모델러 <br>등 총 200여명이 근무하며 다양한 글로벌 GM 차량개발 업무를 수행합니다. </p>
+            </div>
+            <div class="sub3_s7_in2">
+                <p> 세계적으로 통하는 브랜드, 쉐보레</p>
+                <h2>글로벌 자동차 브랜드로서 성장하고 있습니다.</h2>
+                <p>1911년 미국 디트로이트에서 출범한 쉐보레는 전 세계 100여 시장에서 연간 <br> 400만여대를 판매하는 글로벌 자동차 브랜드이다. 뛰어난 주행성능과 제품 디자인, <br>
+                독보적인 안전성을 전 세계 고객들에게 제공하고 있습니다.</p>
+            </div>
+        </div>
+    </section>
+    <section class="sub3_s8">
+        <div class="sub3_s8_back">
+            <div class="inner_content"> 
+                <div class="sub3_s8_video">
+                <a href="#"><video src="./img3/footer.mp4"  autoplay muted loop poster></video></a>
+                </div>
+                <div class="sub3_s8_text rightToleft">
+                    <p> 미래를 향하는 쉐보레의 발걸음</p>
+                    <h2>더 큰 꿈을 위한<br> 쉐보레의 역사적인 발걸음.</h2>
+                    <p>1911년 미국 디트로이트에서 출범한 쉐보레는 전 세계 100여 시장에서 연간 <br>400만여대를 판매하는 글로벌 자동차 브랜드이다. 뛰어난 주행성능과 제품 디자인,<br>독보적인 안전성을 전 세계 고객들에게 제공하고 있습니다.</p>
+                </div>
+            </div>
+        </div>
     </section>
     <footer>
         <div class="line"></div>

@@ -9,9 +9,34 @@
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./css/chevrolet.css">
         <script src="./js/jquery-1.12.3.js"></script>
-        <script src="./js/chevrolet.js"></script>
+        <script src="./js/main.js"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <!-- 채원 -->
+        
+        <!-- <link rel="stylesheet" href="./css/style_mo.css"> -->
+        <link rel="stylesheet" href="./css/index.css">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="./js/index.js"></script>
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/slideable.css">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="./js/slideable.js"></script>
+        <script src="./js/sideGnbCar.js"></script>
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Zen+Dots&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="fixed_menu">
@@ -35,21 +60,126 @@
             </ul>
             <p class="fix_close"><a href="#">TOP</a></p>
         </div>
-        <header>
-            <div class="logo">
-                <a href="main.html"><img src="./img/logo.png" alt="쉐보레 로고"></a>
-            </div>
-            <ul class="gnb">
-                <li><a href="./main.html">차량</a></li>
-                <li><a href="./index.html">온라인구매</a></li>
-                <li><a href="./sub.html">서비스</a></li>
-                <li><a href="./sub2.html">브랜드</a></li> 
-                <li><a href="./sub2.html">쉐보레 NOW</a></li>
+        <!-- <button class="top_open_btn">Catalog</button> -->
+        <div class="sideGnb">
+          <div class="sideGnbTop">
+            <ul class="sideGnbMenu">
+              <li><a href="./sub2.html">차량</a></li>
+              <li><a href="./sub1.html">온라인구매</a></li>
+              <li><a href="./sub2.html">서비스</a></li>
+              <li><a href="./sub3.html">브랜드</a></li>
+              <li><a href="./detail_car.html">EV LIFE</a></li>
             </ul>
-            <a href="#">Catalog<img src="./img/icon6.png" alt="화살표"></a>
-        </header>
-        <section class="main_s1">
-        <section>
+            <button class="top_close_btn">CLOSE</button>
+          </div>
+          <div class="sideGnbMain">
+            <section class="sideMainLeft">
+              <ul class="left1">
+                <li class="on">SUV</li>
+                <li>CUV</li>
+                <li>TRUCK</li>
+              </ul>
+              <ul class="left2">
+                <li>
+                  <p>온라인샵</p>
+                  <span class="left2_arrow">❯</span>
+                </li>
+                <li>
+                  <p>견적 상담 신청</p>
+                  <span class="left2_arrow">❯</span>
+                </li>
+                <li>
+                  <p>시승 상담 신청</p>
+                  <span class="left2_arrow">❯</span>
+                </li>
+                </li>
+              </ul>
+            </section>
+            <section class="sideMainRight">
+              <ul class="right1">
+                <li>
+                  <img src="./img/suv_trailblazer.png" alt="suv 트레일블레이저">
+                  <p>TRAILBLAZER</p>
+                </li>
+                <li>
+                  <img src="./img/suv_taho.png" alt="suv 타호">
+                  <p>TAHO</p>
+                </li>
+                <li>
+                  <img src="./img/suv_traverse.png" alt="suv 트래버스">
+                  <p>TRAVERSE</p>
+                </li>
+              </ul>
+            </section>
+          </div>
+          <div class="sideGnbBottom">
+            <form action="#">
+              <input type="text" value="Search CHEVROLET Korea">
+            </form>
+            <!-- <img src="./img/search_icon.png" alt="돋보기 아이콘"> -->
+          </div>
+        </div>
+        <div class="page1">
+            <header>
+                <div class="logo">
+                    <a href="./main.html"><img src="./img/logo.png" alt="쉐보레 로고"></a>
+                </div>
+                <ul class="gnb">
+                    <li><a href="./main.html">차량</a></li>
+                    <li><a href="./sub1.html">온라인구매</a></li>
+                    <li><a href="./sub2.html">서비스</a></li>
+                    <li><a href="./sub3.html">브랜드</a></li> 
+                    <li><a href="./sub3.html">쉐보레 NOW</a></li>
+                </ul>
+                <a href="#" class="header_open">Catalog<img src="./img/icon6.png" alt="화살표"></a>
+            </header>
+            <!-- 1페이지(메인) -->
+                <section class="main_slogan_group">
+                    <h3 class="main_slogan_title">ADVENTURE READY</h3>
+                    <p class="main_slogan_desc">2025 TRAX CROSSOVER: LIFE IN TRAX. TRAX IN LIFE</p>
+                    <button class="explore">Explore Trax Crossover</button>
+                </section>
+            </div>
+        
+            <div class="page2">
+        
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img class="blue_car" src="./main_img/2025 trax crossover.png" alt="2025 트랙스크로스오버 사진">
+                            <h3 class="slide">2025 TRAX CROSSOVER</h3>
+                            <button class="go">2025 TRAX CROSSOVER</button>
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="black_car" src="./main_img/black.png" alt="검정색 차 사진">
+                            <h3 class="slide">2024 TRAILBLAZER</h3>
+                            <button class="go"><a href="#">2024 TRAILBLAZER</a></button>
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="white_car" src="./main_img/white.png" alt="흰색 차 사진">
+                            <h3 class="slide">2023 TRAVERSE</h3>
+                            <button class="go"><a href="#">2023 TRAVERSE</a></button>
+                        </div>
+                    </div>
+                    <!-- <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div> -->
+                    <div class="swiper-pagination"></div>
+                    <div class="autoplay-progress">
+                        <svg viewBox="0 0 48 48">
+                            <circle cx="24" cy="24" r="20"></circle>
+                        </svg>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="page3">
+                <h3 class="page3_slogan">
+                    우리 가족의 웃음을 책임지는 <br>
+                    쉐보레 FAMILYSHIP
+                </h3>
+            </div>
         <section class="main_s4">
             <div class="inner_content">
                  <h3>DISCOVER</h3>
@@ -60,10 +190,10 @@
                         <li><a href="#"><img src="./img1/discover10.png" alt="discover1"></a>
                             <p>쉐보레 캠페인</p>
                         </li>
-                        <li><a href="#"><img src="./img1/discover20.png" alt="discover1"></a>
+                        <li><a href="#"><img src="./img1/discover20.png" alt="discover2"></a>
                             <p>면세 구입가 지원 프로그램</p>
                         </li>
-                        <li><a href="#"><img src="./img1/discover30.png" alt="discover1"></a>
+                        <li><a href="#"><img src="./img1/discover30.png" alt="discover3"></a>
                             <p>쉐보레ON 서비스 보러가기</p>
                         </li>
                     </ul>
@@ -83,7 +213,7 @@
             <div class="inner_content">
                 <h3>Chevrolet  News</h3>
             </div>
-            <div class="swiper mySwiper">
+            <div class="swiper che">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                     <img src="./img1/img1.png" />
@@ -122,7 +252,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-pagination"></div>
+                <div class="swiper-pagination2"></div>
               </div>
         </section>
         <footer>
