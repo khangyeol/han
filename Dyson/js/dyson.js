@@ -33,7 +33,7 @@ $(document).ready(function(){
         //     $(".a").removeClass("on")
         // }
         scrTop = $(window).scrollTop()
-        $(".rightToleft").each(function(){
+        $(".rightToleft,.leftToRight").each(function(){
             if(scrTop > $(this).offset().top - devHwight*0.6){
                 //스크롤바가 화면높이의 위에서 60%지점라인을 넘어섰을 때 실행되는 소스코드
                 $(this).addClass("on")
@@ -42,4 +42,26 @@ $(document).ready(function(){
             }
         })
     })
+
+    // 메인페이지 마지막섹션 탭메뉴 
+    $(".tab_menu>dt").click(function(){
+        $(".tab_menu>dt").removeClass("on")
+        $(this).addClass("on")
+    })
+    
+    //자동 슬라이드
+    let count = 0
+    setInterval(function(){
+        count++
+        if(count>2){count=0}
+        $(".sub_train").css("transform",`translateX(${-33.333*count}%)`)
+    },3500)
+
+
+    // 로그인탭메뉴
+    $(".login_box>dt").click(function(){
+        $(".login_box>dt").removeClass("on")
+        $(this).addClass("on")
+    })
+
 })

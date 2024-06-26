@@ -9,7 +9,12 @@ $(document).ready(function(){
         $(".main_train").css("transform",`translateX(${-25*count}%)`)
     },3500)
 
-
+     //자동 슬라이드_모바일
+    //   setInterval(function(){
+    //       count++
+    //       if(count>2){count=0}
+    //       $(".main_train_1").css("transform",`translateX(${-33.333*count}%)`)
+    //   },2500)
 
     $(function(){
 
@@ -33,8 +38,7 @@ $(document).ready(function(){
             $(".bag_train>li").eq(count).addClass("on")
         })
     })
-
-
+ 
         //오른쪽에서 날아오는 효과
         let scrTop = 0
         let devHwight = $(window).height() //화면높이

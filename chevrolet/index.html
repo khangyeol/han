@@ -3,226 +3,257 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>쉐보레 온라인구매</title>
+        <title>chevrolet_main</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./css/chevrolet.css">
         <script src="./js/jquery-1.12.3.js"></script>
-        <script src="./js/chevrolet.js"></script>
+        <script src="./js/main.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <!-- 채원 -->
+        
+        <!-- <link rel="stylesheet" href="./css/style_mo.css"> -->
+        <link rel="stylesheet" href="./css/index.css">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="./js/index.js"></script>
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/slideable.css">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="./js/slideable.js"></script>
+        <script src="./js/sideGnbCar.js"></script>
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Zen+Dots&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <div class="logo">
-                <a href="./main.html"><img src="./img/logo.png" alt="쉐보레 로고"></a>
-            </div>
-            <ul class="gnb">
-                <li><a href="./main.html">차량</a></li>
-                <li><a href="./index.html">온라인구매</a></li>
-                <li><a href="./sub.html">서비스</a></li>
-                <li><a href="#">브랜드</a></li> 
-                <li><a href="#">쉐보레 NOW</a></li>
+        <div class="fixed_menu">
+            <ul>
+                <li>
+                    <a href="#"><img src="./img/fix10.png" alt="픽스1"></a>
+                    <p><a href="./sub_car.html">견적내기</a></p>
+                </li>
+                <li>
+                    <a href="#"><img src="./img/fix20.png" alt="픽스1"></a>
+                    <p><a href="./sub_car2.html">정비센터</a></p>
+                </li>
+                <li>
+                    <a href="#"><img src="./img/fix30.png" alt="픽스1"></a>
+                    <p><a href="#">이벤트</a></p>
+                </li>
+                <li>
+                    <a href="#"><img src="./img/fix40.png" alt="픽스1"></a>
+                    <p><a href="#">전시장찾기</a></p>
+                </li>
             </ul>
-            <a href="#">Catalog<img src="./img/icon6.png" alt="화살표"></a>
-        </header>
-        <section class="s1">
-            <img src="./img/img1.png" alt="자동차 이미지" class="main_img">
-            <div class="main_text">
-                <p>쉐보레 2025년형 트랙스 크로스오버 출시</p>
-                <h2>TRAX CROSSOVER</h2>
-                <span><a href="./sub2.html">내 차량 만들러 가기</a></span>
-            </div>
-            <div class="main_box">
-                <div class="inner_content">
-                    <p>모델 구성, 견적, 구매까지 한번에! <br> 나만의 쉐보레 차량을 지금 만나보세요.</p>
-                    <a href="#"><img src="./img/icon1.png" alt="아이콘1"><p>전시장 찾기</p></a>
-                    <a href="#"><img src="./img/icon2.png" alt="아이콘2"><p>차량 견적내기</p></a>
-                    <a href="#"><img src="./img/icon3.png" alt="아이콘3"><p>상담문의</p></a>
-                    <span><a href="./sub2.html">내 차량 만들러 가기</a></span>
+            <p class="fix_close"><a href="#">TOP</a></p>
+        </div>
+        <!-- <button class="top_open_btn">Catalog</button> -->
+        <div class="sideGnb">
+          <div class="sideGnbTop">
+            <ul class="sideGnbMenu">
+              <li><a href="./sub2.html">차량</a></li>
+              <li><a href="./sub1.html">온라인구매</a></li>
+              <li><a href="./sub2.html">서비스</a></li>
+              <li><a href="./sub3.html">브랜드</a></li>
+              <li><a href="./index.html">EV LIFE</a></li>
+            </ul>
+            <button class="top_close_btn">CLOSE</button>
+          </div>
+          <div class="sideGnbMain">
+            <section class="sideMainLeft">
+              <ul class="left1">
+                <li class="on">SUV</li>
+                <li>CUV</li>
+                <li>TRUCK</li>
+              </ul>
+              <ul class="left2">
+                <li>
+                  <p>온라인샵</p>
+                  <span class="left2_arrow">❯</span>
+                </li>
+                <li>
+                  <p>견적 상담 신청</p>
+                  <span class="left2_arrow">❯</span>
+                </li>
+                <li>
+                  <p>시승 상담 신청</p>
+                  <span class="left2_arrow">❯</span>
+                </li>
+                </li>
+              </ul>
+            </section>
+            <section class="sideMainRight">
+              <ul class="right1">
+                <li>
+                  <img src="./img/suv_trailblazer.png" alt="suv 트레일블레이저">
+                  <p>TRAILBLAZER</p>
+                </li>
+                <li>
+                  <img src="./img/suv_taho.png" alt="suv 타호">
+                  <p>TAHO</p>
+                </li>
+                <li>
+                  <img src="./img/suv_traverse.png" alt="suv 트래버스">
+                  <p>TRAVERSE</p>
+                </li>
+              </ul>
+            </section>
+          </div>
+          <div class="sideGnbBottom">
+            <form action="#">
+              <input type="text" value="Search CHEVROLET Korea">
+            </form>
+            <!-- <img src="./img/search_icon.png" alt="돋보기 아이콘"> -->
+          </div>
+        </div>
+        <div class="page1">
+            <header>
+                <div class="logo">
+                    <a href="./main.html"><img src="./img/logo.png" alt="쉐보레 로고"></a>
                 </div>
+                <ul class="gnb">
+                    <li><a href="./index.html">차량</a></li>
+                    <li><a href="./sub1.html">온라인구매</a></li>
+                    <li><a href="./sub2.html">서비스</a></li>
+                    <li><a href="./sub3.html">브랜드</a></li> 
+                    <li><a href="./sub3.html">쉐보레 NOW</a></li>
+                </ul>
+                <a href="#" class="header_open">Catalog<img src="./img/icon6.png" alt="화살표"></a>
+            </header>
+            <!-- 1페이지(메인) -->
+                <section class="main_slogan_group">
+                    <h3 class="main_slogan_title">ADVENTURE READY</h3>
+                    <p class="main_slogan_desc">2025 TRAX CROSSOVER: LIFE IN TRAX. TRAX IN LIFE</p>
+                    <button class="explore">Explore Trax Crossover</button>
+                </section>
             </div>
-        </section>
-        <section class="s2">
-            <div class="inner_content">
-                <h2>SELECT YOUR CAR</h2>
-                <p>차종별 카탈로그 및 가격표를 다운받으실 수 있습니다. <br>
-                    관심있는 차량의 가격을 바로 확인해 보세요.</p>
-                <div class="inner_img">
-                    <ul>
-                        <li>
-                            <div>
-                                <a href="#">
-                                    <img src="./img/car1.png" alt="CUV">
-                                </a>
-                            </div>
-                            <h4>Suv</h4>
-                            <p>TRAX TRAVERSE</p>
-                        </li>
-                        <li class="s2_li">
-                            <div class="inner_img">
-                                <a href="#">
-                                    <img src="./img/car2.png" alt="SUV">
-                                </a>
-                            </div>
-                            <h4>Cuv</h4>
-                            <p>TRAX CROSSOVER</p>
-                        </li>
-                        <li>
-                            <div class="inner_img">
-                                <a href="#">
-                                    <img src="./img/car3.png" alt="트럭">
-                                </a>
-                            </div>
-                            <h4>Truck</h4>
-                            <p>TRAX COLOLADO</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <section class="s3">
-            <div class="inner_content">
-                <p>더욱 완벽해진 <br>
-                쉐보레를 만나 보세요.</p>
-                <span><a href="#">지금바로 견적내기</a></span>
-            </div>
-        </section>
-        <section class="s4">
-            <div class="inner_content">
-                <h2>BODY STYLE</h2>
-                <div>
-                    <ul>
-                        <li>
-                            <div class="list_img">
-                                <a href="#"><p><img src="./img/icon5.png" alt="아이콘5"></p></a>
-                                <h4>NEW 2024</h4>
-                                <img src="./img/list1.png" alt="자동차이미지1">
-                            </div>
-                            <div class="list_text">
-                                <p>TRAX CROSSOVER</p>
-                                <p>26,990,000 ~</p>
-                                <p>2025 E-Turbo</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="list_img">
-                                <a href="#"><p><img src="./img/icon5.png" alt="아이콘5"></p></a>
-                                <img src="./img/list4.png" alt="자동차이미지1">
-                            </div>
-                            <div class="list_text">
-                                <p>TRAILBLAZER</p>
-                                <p>26,990,000 ~</p>
-                                <p>2024 E-Turbo</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="list_img">
-                                <a href="#"><p><img src="./img/icon5.png" alt="아이콘5"></p></a>
-                                <img src="./img/list2.png" alt="자동차이미지1">
-                            </div>
-                            <div class="list_text">
-                                <p>TRAX TRAVERSE</p>
-                                <p>56,400,000~</p>
-                                <p>2023 E-Turbo</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="list_img">
-                                <a href="#"><p><img src="./img/icon5.png" alt="아이콘5"></p></a>
-                                <img src="./img/list3.png" alt="자동차이미지1">
-                            </div>
-                            <div class="list_text">
-                                <p>TRAX TAHOE</p>
-                                <p>93,900,000~</p>
-                                <p>2023 E-Turbo</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <section class="s5">
-            <div class="s5_head">
-                <div class="inner_content">
-                    <div>
-                        <img src="./img/car5.png" alt="트레버스 옆모습">
-                        <p>TRAILBLAZER</p>
-                        <a href="#"><img src="./img/icon7.png" alt="화살표아이콘"></a>
+        
+            <div class="page2">
+        
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img class="blue_car" src="./main_img/2025 trax crossover.png" alt="2025 트랙스크로스오버 사진">
+                            <h3 class="slide">2025 TRAX CROSSOVER</h3>
+                            <button class="go">2025 TRAX CROSSOVER</button>
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="black_car" src="./main_img/black.png" alt="검정색 차 사진">
+                            <h3 class="slide">2024 TRAILBLAZER</h3>
+                            <button class="go"><a href="#">2024 TRAILBLAZER</a></button>
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="white_car" src="./main_img/white.png" alt="흰색 차 사진">
+                            <h3 class="slide">2023 TRAVERSE</h3>
+                            <button class="go"><a href="#">2023 TRAVERSE</a></button>
+                        </div>
                     </div>
-                    <div>
-                        <p><a href="#">시승신청</a></p>
-                        <p><a href="#">둘러보기</a></p>
-                        <p><a href="#">예상가격</a></p>
+                    <!-- <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div> -->
+                    <div class="swiper-pagination"></div>
+                    <div class="autoplay-progress">
+                        <svg viewBox="0 0 48 48">
+                            <circle cx="24" cy="24" r="20"></circle>
+                        </svg>
+                        <span></span>
                     </div>
                 </div>
             </div>
-            <div class="s5_view">
-                <div class="inner_content">
-                    <section class="s5_box">
-                        <div class="price">
-                            <p><a href="#">견적내기</a></p>
-                            <p><a href="#">터보엔진</a></p>
-                            <p><a href="#">익스테리어</a></p>
-                            <p><a href="#">인테리어</a></p>
-                            <p><a href="#">연비</a></p>
-                            <p><a href="#">멀티미디어 및 요약</a></p>
-                        </div>
-                        <div class="color">
-                            <h3>외장색상</h3>
-                            <a href="#"><img src="./img/color1.png" alt="컬러1"></a>
-                            <a href="#"><img src="./img/color2.png" alt="컬러2"></a>
-                            <a href="#"><img src="./img/color3.png" alt="컬러3"></a>
-                            <a href="#"><img src="./img/color4.png" alt="컬러4"></a>
-                            <a href="#"><img src="./img/color5.png" alt="컬러5"></a>
-                            <a href="#"><img src="./img/color6.png" alt="컬러6"></a>
-                            <a href="#"><img src="./img/color7.png" alt="컬러7"></a>
-
-                        </div>
-                        <div class="color2">
-                            <h3>내장색상</h3>
-                            <a href="#"><img src="./img/color8.png" alt="컬러8"></a>
-                            <a href="#"><img src="./img/color9.png" alt="컬러9"></a>
-                        </div>
-                    </section>
-                    <section class="s5_view2">
-                        <a href="#"><img src="./img/interior.png" alt="차량내부이미지"></a>
-                        <span><a href="#">지금바로 견적내기</a></span>
-                    </section>
-                    <section class="s5_view3">
-                        <a href="#"><img src="./img/car_out.png" alt="차량외부이미지"></a>
-                    </section>
+        
+            <div class="page3">
+                <h3 class="page3_slogan">
+                    우리 가족의 웃음을 책임지는 <br>
+                    쉐보레 FAMILYSHIP
+                </h3>
+            </div>
+        <section class="main_s4">
+            <div class="inner_content">
+                 <h3>DISCOVER</h3>
+                 <p>다양한 쉐보레 서비스를 지금 바로 만나보세요</p>
+                
+                 <div >
+                    <ul class="main_s4_img">
+                        <li><a href="#"><img src="./img1/discover10.png" alt="discover1"></a>
+                            <p>쉐보레 캠페인</p>
+                        </li>
+                        <li><a href="#"><img src="./img1/discover20.png" alt="discover2"></a>
+                            <p>면세 구입가 지원 프로그램</p>
+                        </li>
+                        <li><a href="#"><img src="./img1/discover30.png" alt="discover3"></a>
+                            <p>쉐보레ON 서비스 보러가기</p>
+                        </li>
+                    </ul>
+                 </div>
+            </div>
+        </section>
+        <section class="main_s5">
+            <div class="inner_content">
+                <div>       
+                    <h3>CHEVROLET EVENTS</h3>
+                    <p>쉐보레에서 진행중인 다양한 이벤트를 소개합니다.</p>
+                    <span><a href="./sub2.html">이벤트 보기</a></span>
                 </div>
             </div>
         </section>
-        <section class="s6">
-            <div class="s6_banner">
-                <p></p>
-                <h2 class="inner_content">쉐보레 최고의 혜택으로 <br>
-                    온라인으로 구매해 보세요.</h2>
+        <section class="main_s6">
+            <div class="inner_content">
+                <h3>Chevrolet  News</h3>
             </div>
-            <div class="s6_box inner_content">
-                <section>
-                    <h3>서비스센터 / 전시장 찾기</h3>
-                    <p>주변의 공식 서비스 센터와 <br>
-                        차량을 시승할 수 있는 <br>
-                        쉐보레 전시장을 한눈에 찾아 보세요.</p>
-                    <span><a href="#">서비스 센터 찾기</a></span>
-                </section>
-                <section>
-                    <h3>이벤트/할인</h3>
-                    <p>쉐보레가 준비한 <br>
-                        5월의 특별 이벤트/할인을 <br>
-                        지금 만나보세요.</p>
-                    <span><a href="#">온라인 혜택 보기</a></span>
-                </section>
-                <section>
-                    <h3>쉐보레 오토 카드</h3>
-                    <p>카드 이용 시 전국 어디서든 <br>
-                        사용 할 수 있는 자동차 전용 <br>
-                        오토 카드를 만나 보세요.</p>
-                    <span><a href="#">카드 혜택 둘러보기</a></span>
-                </section>
-            </div>
+            <div class="swiper che">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                    <img src="./img1/img1.png" />
+                        <div>
+                            <h3>오토 트리뷴(Auto Tribune)</h3>
+                            <p>"원격 시동은 이제 기본이죠"... GM 온스타, 한국 먼저 추가된 기능도?</p>
+                            <p>고객 방문 이벤트 진행 중</p>
+                            <span><a href="#">자세히 보기</a></span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                    <img src="./img1/img3.png" />
+                        <div>
+                            <h3>CNET Korea</h3>
+                            <p>쉐보레, '트랙스 크로스오버 레드라인' 출시 기념 전시장 방문 이벤트</p>
+                            <p>고객 방문 이벤트 진행 중</p>
+                            <span><a href="#">자세히 보기</a></span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                    <img src="./img1/img2.png" />
+                        <div>
+                            <h3>네이트뷰 (Nate)</h3>
+                            <p>“영업이익만 1조를 넘겼다”…현대차·기아도 아닌 ‘역대급’ 실적 자랑하는 이 브랜드는?</p>
+                            <p>GM 한국사업장, 2023년 완성차 판매…전년 대비 76.6% 증가</p>
+                            <span><a href="#">자세히 보기</a></span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                    <img src="./img1/img4.png" />
+                        <div>
+                            <h3>CNET Korea</h3>
+                            <p>쉐보레, '트랙스 크로스오버 레드라인' 출시 기념 전시장 방문 이벤트</p>
+                            <p>GM 한국사업장, 2023년 완성차 판매…전년 대비 76.6% 증가</p>
+                            <span><a href="#">자세히 보기</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination2"></div>
+              </div>
         </section>
         <footer>
             <div class="line"></div>
@@ -301,7 +332,7 @@
                         <ul>
                             <li><a href="#"><img src="./img/sns1.png" alt="facebook"></a></li>
                             <li><a href="#"><img src="./img/sns2.png" alt="youtube"></a></li>
-                            <li><a href="#"><img src="./img/sns3.png" alt="instagram"></a></li>
+                            <li class="insta"><a href="#"><img src="./img/sns3.png" alt="instagram"></a></li>
                         </ul>
                     </section>
                 </div>

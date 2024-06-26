@@ -7,17 +7,168 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/dyson.css">
+    <link rel="stylesheet" href="./css/dyson_pc.css">
+    <link rel="stylesheet" href="./css/dyson_tablet.css">
+    <link rel="stylesheet" href="./css/dyson_mobile.css">
     <script src="./js/jquery-1.12.3.js"></script>
     <script src="./js/dyson.js"></script>
+    <script src="./js/mobile.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
 <body>
-    <header></header>
+    <!-- pc버전 -->
+    <header class="pc_header">
+        <div class="header_top inner_content">
+            <section><a href="./index.html" class="logo">dyson</a></section>
+            <section class="inner_content">
+                <ul class="gnb">
+                    <li><a href="#">청소기</a>
+                        <ul>
+                            <li><a href="#">물청소기</a></li>
+                            <li><a href="#">진공청소기</a></li>
+                            <li><a href="#">로봇청소기</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">헤어케어</a>
+                        <ul>
+                            <li><a href="#">스타일러</a></li>
+                            <li><a href="#">커스텀</a></li>
+                            <li><a href="#">드라이기</a></li>
+                            <li><a href="#">스트라이너</a></li>
+                        </ul>
+
+                    </li>
+                    <li><a href="./sub1.html">공기청정기</a>
+                        <ul>
+                            <li><a href="./sub1.html">공기청정기</a></li>
+                            <li><a href="./sub1.html">선풍기</a></li>
+                            <li><a href="./sub1.html">멀티청정기</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">헤드폰</a>
+                        <ul>
+                            <li><a href="#">헤드폰</a></li>
+                            <li><a href="#">노이즈캔슬</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">조명</a>
+                        <ul>
+                            <li><a href="#">조명보기</a></li>
+                            <li><a href="#">솔라사이클</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">DYSON LIVE</a>
+                        <ul>
+                            <li><a href="#">LIVE보기</a></li>
+                            <li><a href="#">LIVE예약</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">고객지원</a>
+                        <ul>
+                            <li><a href="#">액세서리</a></li>
+                            <li><a href="#">주문조회</a></li>
+                            <li><a href="#">회원조회</a></li>
+                            <li><a href="#">교환/반품</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">이벤트</a>
+                        <ul>
+                            <li><a href="#">제품등록</a></li>
+                            <li><a href="#">매장찾기</a></li>
+                            <li><a href="#">뉴스룸</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section ><a href="#" class="header_searching"><img src="./img/header icon1.png" alt="검색"></a></section>
+        </div>
+    </header>
+    <!-- mobile 버전 -->
+    <header class="mo_header">
+        <div class="header_top inner_content">
+            <section><a href="./index.html" class="logo">dyson</a></section>
+            <section class="header_right inner_content">
+                <ul class="gnb">
+                    <li><a href="#">청소기</a>
+                        <ul>
+                            <li><a href="#">물청소기</a></li>
+                            <li><a href="#">진공청소기</a></li>
+                            <li><a href="#">로봇청소기</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">헤어케어</a>
+                        <ul>
+                            <li><a href="#">스타일러</a></li>
+                            <li><a href="#">커스텀</a></li>
+                            <li><a href="#">드라이기</a></li>
+                            <li><a href="#">스트라이너</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./sub1.html">공기청정기</a>
+                        <ul>
+                            <li><a href="./sub1.html">공기청정기</a></li>
+                            <li><a href="./sub1.html">선풍기</a></li>
+                            <li><a href="./sub1.html">멀티청정기</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">헤드폰</a>
+                        <ul>
+                            <li><a href="#">헤드폰</a></li>
+                            <li><a href="#">노이즈캔슬</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">조명</a>
+                        <ul>
+                            <li><a href="#">조명보기</a></li>
+                            <li><a href="#">솔라사이클</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">DYSON LIVE</a>
+                        <ul>
+                            <li><a href="#">LIVE보기</a></li>
+                            <li><a href="#">LIVE예약</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">고객지원</a>
+                        <ul>
+                            <li><a href="#">액세서리</a></li>
+                            <li><a href="#">주문조회</a></li>
+                            <li><a href="#">회원조회</a></li>
+                            <li><a href="#">교환/반품</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">이벤트</a>
+                        <ul>
+                            <li><a href="#">제품등록</a></li>
+                            <li><a href="#">매장찾기</a></li>
+                            <li><a href="#">뉴스룸</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="close_btn"><a href="#">닫아주세요</a></li>
+                </ul>
+              
+            </section>
+            <section >
+                <div class="header_searching"><a href="#"><img src="./img/header_icon.png" alt=""></a></div>
+            </section>
+        </div>
+    </header>
+    <section class="header_bottom inner_content">
+        <div><a href="#">AIR PURIFIER</a></div>
+        <div>
+            <ul class="gnb_bottom">
+                <li><a href="./login.html">개요</a></li>
+                <li><a href="./login.html">제품사양</a></li>
+                <li><a href="./login.html">비교하기</a></li>
+                <li class="gnb_button"><a href="./login.html">구입하기</a></li>
+            </ul>
+        </div>
+    </section>
     <section class="s1">
         <div class="inner_content">
-            <h3><p>air purifier</p><br>technology</h3>
+            <h3><p>Air purifier</p><br>Technology</h3>
             <p>다이슨 공기 청정 제품으로 <br> 실내 환경을 더 쾌적하게.</p>
         </div>
     </section>
@@ -62,26 +213,26 @@
                     <div class="slide_text">
                         <p>COOL</p>
                         <h4>선풍기</h4>
-                        <p>PURIFIER</p>
+                        <p>AIR</p>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <a href="#"><img src="./img/box7.jpg" alt="박스6"></a>
                     <div class="slide_text">
                         <p>COOL</p>
-                        <h4>멀티청정기
-                        </h4>
+                        <h4>멀티청정기</h4>
                         <p>PURIFIER</p>
                     </div>
                 </div>
             </div>
             <div class="swiper-pagination"></div>
-          </div>        
+        </div>      
     </section>
     <section class="s3">
         <div>
-            <h2>다이슨 공기청정기 비교하기 <br>
-                제품을 비교하여 나에게 가장 적합한 다이슨 공기청정기를 찾아보세요.</h2>
+            <h2><span>다이슨 공기청정기 비교하기</span> <br>
+                제품을 비교하여 나에게 가장 적합한 <br> 다이슨 공기청정기를 찾아보세요.
+            </h2>
         </div>
         <div class="s3_img">
             <h3>미세먼지 <br>
@@ -93,49 +244,59 @@
         <div class="inner_content">
             <p>제품</p>
             <h3>다이슨의 <br> 상쾌한 공기</h3>
-            <p class="s4_text">다이슨 공기청정기 비교하기 <br>
-                제품을 비교하여 나에게 가장 적합한 다이슨 공기청정기를 찾아보세요.</p>
+            <p class="s4_text">다이슨 가습 공기청정기는 눈에 보이지 않는 증발된 물의 흐름으로 <br>공기를 분사해 자동으로 목표 습도를 유지하고 더 쾌적한 환경을 만들어 줍니다.</p>
         </div>
         <div class="swiper s4_swiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <a href="#"><img src="./img/slide1.jpg" alt="박스2"></a>
                     <div class="slide_text">
-                        <p>cool</p>
-                        <h4>선풍기</h4>
-                        <p>PURIFIER</p>
+                        <p>purifier big +quiet <br>
+                            formaldehyde</p>
+                        <h4>멀티 공기청정기</h4>
+                        <p>다이슨 빅+콰이엇 포름알데히드 공기청정기(블루/화이트)</p>
+                    </div>
+                    <div class="slide_text2">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <a href="#"><img src="./img/slide2.jpg" alt="박스2"></a>
                     <div class="slide_text">
-                        <p>cool</p>
+                        <p>purifier big +quiet <br> formaldehyde</p>
                         <h4>가습 공기청정기</h4>
-                        <p>PURIFIER</p>
+                        <p>다이슨 빅+콰이엇 포름알데히드 공기청정기(니켈/블루)</p>
+                    </div>
+                    <div class="slide_text2">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <a href="#"><img src="./img/slide3.jpg" alt="박스2"></a>
                     <div class="slide_text">
-                        <p>cool</p>
-                        <h4>공기청정기</h4>
-                        <p>PURIFIER</p>
+                        <p>purifier big +quiet<br> formaldehyde</p>
+                        <h4>프리미엄 공기청정기</h4>
+                        <p>다이슨 빅+콰이엇 포름알데히드 공기청정기(실버/화이트)</p>
+                    </div>
+                    <div class="slide_text2">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <a href="#"><img src="./img/slide4.jpg" alt="박스2"></a>
                     <div class="slide_text">
-                        <p>filter</p>
-                        <h4>필터</h4>
-                        <p>PURIFIER</p>
+                        <p>purifier big +quiet <br> formaldehyde</p>
+                        <h4>가습 공기청정기</h4>
+                        <p>다이슨 휴미디파이+쿨 포름알데히드 가습 공기청정기(화이트/골드)</p>
+                    </div>
+                    <div class="slide_text2">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <a href="#"><img src="./img/slide5.jpg" alt="박스2"></a>
                     <div class="slide_text">
-                        <p>cool</p>
-                        <h4>선풍기</h4>
-                        <p>PURIFIER</p>
+                        <p>purifier big +quiet<br>  formaldehyde</p>
+                        <h4>가습 공기청정기</h4>
+                        <p>다이슨 휴미디파이+쿨 포름알데히드 가습 공기청정기(화이트/실버)</p>
+                    </div>
+                    <div class="slide_text2">
                     </div>
                 </div>
             </div>
@@ -147,13 +308,16 @@
     </section>
     <section class="s6">
         <div class="inner_content">
-            <p  class="cool">cool</p>
-            <h2>purifier</h2>
-            <p>다이슨 앱으로 사용해 보세요.</p>
+            <div>
+                <p  class="cool">cool</p>
+                 <h2>purifier</h2>
+                <p>다이슨 앱으로 사용해 보세요.</p>
+            </div>
+      
             <div class="s6_box">
                 <div>
                     <h4>My dyson앱을 통해 <br>
-                        바람의 세기와 각도를 설정하고, <br>
+                        바람의 세기와 각도를 설정하고,<br>
                         내 손 안에서 온도를 제어하세요</h4>
                     <a href="#" class="gray"><p>My dyson앱  보러가기.</p></a>
                 </div>
@@ -172,12 +336,12 @@
             <div class="s7_box">
                 <div class="s7_box_in1">
                     <div>
-                        <h4>가습 <br> 공기청정기</h4> 
+                        <h4><b>PURIFIER</b> <br> 가습 <br> 공기청정기</h4> 
                     </div>
                 </div>
                 <div class="s7_box_in2">
                     <div>
-                        <h4>멀티 <br> 공기청정기</h4> 
+                        <h4><b>cool</b><br>멀티 <br> 공기청정기</h4> 
                     </div>
                 </div>
             </div>
@@ -185,12 +349,18 @@
     </section>
     <section class="s8_1" >
         <div class="inner_content">
-            <span class="gray"><a href="#">언제나 당신에게 알맞는 서비스와 혜택으로.</a></span>
+            <span><a href="#">언제나 당신에게 알맞는 서비스와 혜택으로.</a></span>
             <div class="s8_section">
-                <section></section>
-                <section></section>
                 <section>
-                    <div><p></p></div>
+                    <p>dyson의 스페셜리스트</p>
+                    <h4>다이슨은 실제 집 내부 환경 <br> 기준으로 시험하였습니다.</h4>
+                </section>
+                <section>
+                    <p>dyson앱의 새로운 혁명</p>
+                    <h4>실내 온도와 공기 질을 빠르게 확인</h4>
+                </section>
+                <section>
+                    <div></div>
                     <div></div>
                 </section>
             </div>
@@ -199,42 +369,63 @@
     <section class="s9">
         <div class="inner_content">
            <section>
-            <h3>My dyson앱을 통해 <br>
-                바람의 세기와 각도를 설정하고, <br>
-                내 손 안에서 온도를 제어하세요.</h3>
+            <h3>다이슨 크립토믹 기술은 <br>
+                실내환경에 유해한 포름알데히드를<br>
+                지속적으로 정화시킵니다.</h3>
            </section>
             <div class="s9_li1">
                 <ul>
                     <li class="s9_back">
+                        <div class="s9_deco">
+                            <div>dyson</div>
+                            <div>history</div>
+                        </div>
                         <a href="#"><img src=""></a>
                         <h2>dyson</h2>
-                        <h4>바람의 세기와 각도를 설정하고, <br>
-                            내 손 안에서 온도를 제어하세요.</h4>
-                        <p>2024-04-12</p>
+                        <h4>다이슨이 오랜시간동안 <br>
+                            연구한 프롬알데히드 입자분해<br> 
+                            기술력을 집안에서 느껴보세요.</h4>
                     </li>
                     <li>
+                        <div class="s9_deco">
+                            <div>dyson</div>
+                            <div>tech</div>
+                        </div>
+                        <div class="s9_deco_img">
+                        </div>
                         <a href="#"><img src=""></a>
-                        <p>News</p>
-                        <h4>다이슨의 우수한 기술력을 <br> 직접 느껴보세요.</h4>
-                        <p>2024-04-30</p>
+                        <h2>technology</h2>
+                        <h4>다이슨 크립토믹™ 기술은 <br>가장작은 분자수준에서  <br>포름알데히드를 파괴합니다.</h4>
+                        <p>다이슨의 크립토믹 기술</p>
                     </li>
                 </ul>
             </div>
             <div class="s9_li2">
                 <ul>
                     <li>
+                        <div class="s9_deco">
+                            <div>dyson</div>
+                            <div>air</div>
+                        </div>
+                        <div class="s9_deco_img s9_deco_img2">
+                        </div>
                         <a href="#"><img src=""></a>
-                        <p>News</p>
-                        <h4>내 손안에서 온도를 제어하세요. <br>
-                            내 손 안에서 온도를 제어하세요.</h4>
-                        <p>2024-05-20/p>
+                        <h2>air cleaning</h2>
+                        <h4>PM0.1보다 500배 더 작은 <br>
+                            포름알데히드 입자</h4>
+                        <p>다이슨의 입자분해 기술</p>
                     </li>
                     <li>
+                        <div class="s9_deco">
+                            <div>dyson</div>
+                            <div>purifier</div>
+                        </div>
+                        <div class="s9_deco_img s9_deco_img3">
+                        </div>
                         <a href="#"><img src=""></a>
-                        <p>News</p>
-                        <h4>바람의 세기와 각도를 설정하고, <br>
-                            내 손 안에서 온도를 제어하세요.</h4>
-                        <p>2024-06-25</p>
+                        <h2>smart report</h2>
+                        <h4>공기 중 미세 먼지와 가스를 <br> 실시간 감지 및 보고합니다.</h4>
+                        <p>실시간 포착 기술</p>
                     </li>
                 </ul>
             </div>
@@ -245,23 +436,234 @@
              <h4>My dyson앱을 통해 <br>
             바람의 세기와 각도를 설정하고, <br>
             내 손 안에서 온도를 제어하세요</h4>
+            <p>3개의 지능 센서가 있는 다이슨 공기청정기는 포름알데히드를 포함한 공기 중 미세 먼지와 <br>가스를 자동으로 감지합니다. 기기에 내장된 LCD 화면을 통해 실내 온도와 <br> 감지된 오염 물질을 확인할 수 있습니다.</p>
+            <span class="s11_price"><a href="#" >구매하러 가기</a></span>
         </div>
-       
     </section>
-    <section class="s8" >
+    <section class="s10_2">
         <div class="inner_content">
-            <h3>멀티플라이어 기술은 주변 공기를 증폭시켜 <br>
+            <h3><span>다이슨 공기청정기 비교하기</span><br>
+                제품을 비교하여 나에게 가장 적합한 <br> 다이슨 공기청정기를 찾아보세요.</h3>
+            <ul class="s10_gnb">
+                <li>
+                <div class="imgHoverEvent event5">
+                    <div class="imgBox">
+                        <img src="./img/cate1.png" alt="섹션1">
+                    </div>
+                    <div class="hoverBox">
+                        <span>
+                            <p class="p1">FILTER</p>
+                            <p class="p2">다이슨의 정제 기술로 만든 필터</p>
+                        </span>
+                    </div>
+                    </div> 
+                </li>
+                <li>
+                    <div class="imgHoverEvent event5">
+                        <div class="imgBox">
+                            <img src="./img/cate2.png" alt="섹션1">
+                        </div>
+                        <div class="hoverBox">
+                            <span>
+                                <p class="p1">PURIFIER</p>
+                                <p class="p2">프롬알데이드기술의 가습청정기</p>
+                            </span>
+                        </div>
+                    </div> 
+                </li>
+                    <li>
+                        <div class="imgHoverEvent event5">
+                            <div class="imgBox"><img src="./img/cate3.png" alt="섹션2">
+                             </div>
+                            <div class="hoverBox">
+                                <span>
+                                    <p class="p1">PURIFIER</p>
+                                    <p class="p2">다이슨의 정제 기술로 만든 필터</p>
+                                </span>
+                            </div>
+                        </div> 
+                    </li>
+                    <li>
+                        <div class="imgHoverEvent event5">
+                            <div class="imgBox"><img src="./img/cate4.png" alt="섹션2">
+                             </div>
+                            <div class="hoverBox">
+                                <span>
+                                    <p class="p1">COOL</p>
+                                    <p class="p2">다이슨의 정제 기술로 만든 공기청정기</p>
+                                </span>
+                            </div>
+                        </div> 
+                    </li>
+                    <li>
+                        <div class="imgHoverEvent event5">
+                            <div class="imgBox">
+                                <img src="./img/cate5.png" alt="섹션1">
+                            </div>
+                            <div class="hoverBox">
+                                <span>
+                                    <p class="p1">FILTER</p>
+                                    <p class="p2">다이슨의 정제 기술로 만든 필터</p>
+                                </span>
+                            </div>
+                        </div> 
+                    </li>
+            </ul>
+        </div>
+    </section>
+    <section class="s11">
+        <div class="inner_content">
+            <h3 class="leftToRight">멀티플라이어 기술은 주변 공기를 증폭시켜 <br>
                 끊김없이 원활한 공기 흐름을 제공합니다.</h3>
             <span class="gray"><a href="#">지금 구매하러 가기.</a></span>
-        </div>
-        <div class="s8_box">
+            <div class="s11_box">
             <h3></h3>
+            </div> 
         </div>
     </section>
     <section class="s12">
-        <p>다이슨 필터는 헤파 H13 등급을 충족하여 미세먼지를 잡아두고 <br>
-            활성탄소 필터는 가스와 냄새를 동시에 제거합니다.</p>
+        <div class="inner_content">
+            <!-- 탭메뉴 기능 하나 넣기 -->
+            <h3 class="rightToleft">다양한 이벤트와 혜택을 통해 <br>
+                다이슨의 혁신적인 기술력을 경험해보세요.
+            </h3>
+            <span class="gray"><a href="#">지금 구매하러 가기.</a></span>
+            <dl class="tab_menu">
+                <dt class="on">
+                    <span>구매혜택 보기</span>
+                </dt>
+                <dd>
+                </dd>
+                <dt>
+                    <span>서비스센터 찾기</span>
+                </dt>
+                <dd>
+                    <p>전국의 서비스 센터에서 고객님을 위해 대기하고 있습니다. 귀하의 소중한 <br> 제품을 만든 다이슨 전문가에게 점검 및 수리 받으세요. <br>
+                    공식 서비스 센터를 이용하면 택배 수리 서비스는 물론이며, 더욱 안전하고 <br>정확한 서비스를 받아보실 수 있습니다.</p>
+                </dd>
+                <dt>
+                    <span>다이슨 LIVE 보기</span>
+                </dt>
+                <dd>
+                </dd>
+            </dl>
+        </div>
     </section>
-    <footer></footer>
+    <section class="s13 inner_content">
+        <ul class="s13_list">
+            <li>
+                <a href="#"><img src="./img/icon1.png" alt="아이콘1"></a>
+                <h3>무료배송</h3>
+                <p>다이슨 제품과 부품 구매 시<br>
+                배송비는 무료입니다.</p>
+            </li>
+            <li>
+                <a href="#"><img src="./img/icon2.png" alt="아이콘2"></a>
+                <h3>보증 기간 무상 A/S</h3>
+                <p>다이슨은  제품 폼질 보증 <br>
+                    정책을 운영하고 있습니다</p>
+            </li>
+            <li>
+                <a href="#"><img src="./img/icon3.png" alt="아이콘3"></a>
+                <h3>카드사 혜택</h3>
+                <p>즉시 할인, 캐시백, <br>
+                    무이자 할부를 비롯한 다양한 <br>
+                    카드사 혜택을 확인해 보세요.</p>
+            </li>
+            <li>
+                <a href="#"><img src="./img/icon4.png" alt="아이콘4"></a>
+                <h3>가장빠른 혜택 알림</h3>
+                <p>신제품과 한정판 배송 출시는 물론, <br>
+                    공식몰에서 매월 진행되는 <br>
+                    다양한 이벤트와 혜택을 <br>
+                    가장 먼저 만나 보실 수 있습니다.</p>
+            </li>
+        </ul>
+    </section>
+    <footer>
+        <div class="inner_content">
+            <section>
+                <ul class="footer_con">
+                    <li><a href="#">dyson > </a></li>
+                    <li><a href="#">제품 > </a></li>
+                    <li><a href="#">공기청정기</a></li>
+                </ul>
+            </section>
+            <section>
+                <ul class="footer_gnb">
+                    <li><a href="#">제품</a>
+                        <ul>
+                            <li><a href="#">청소기</a></li>
+                            <li><a href="#">헤어케어</a></li>
+                            <li><a href="#">공기청정기 및 선풍기</a></li>
+                            <li><a href="#">헤드폰</a></li>
+                            <li><a href="#">조명</a></li>
+                            <li><a href="#">액세서리 및 부품</a></li>
+                            <li><a href="#">스페셜 딜</a></li>
+                            <li><a href="#">DYSON LIVE</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">비즈니스 제품</a>
+                        <ul>
+                            <li><a href="#">선풍기</a></li>
+                            <li><a href="#">헤드폰</a></li>
+                            <li><a href="#">조명</a></li>
+                            <li><a href="#">액세서리 및 부품</a></li>
+                            <li><a href="#">스페셜 딜</a></li>
+                            <li><a href="#">DYSON LIVE</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">고객지원</a>
+                        <ul>
+                            <li><a href="#">선풍기</a></li>
+                            <li><a href="#">헤드폰</a></li>
+                            <li><a href="#">조명</a></li>
+                            <li><a href="#">액세서리 및 부품</a></li>
+                            <li><a href="#">스페셜 딜</a></li>
+                            <li><a href="#">DYSON LIVE</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">기업정보</a>
+                        <ul>
+                            <li><a href="#">선풍기</a></li>
+                            <li><a href="#">헤드폰</a></li>
+                            <li><a href="#">조명</a></li>
+                            <li><a href="#">액세서리 및 부품</a></li>
+                            <li><a href="#">스페셜 딜</a></li>
+                            <li><a href="#">DYSON LIVE</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <ul class="footer_web">
+                    <li><a href="#">웹사이트 이용 약관</a></li>
+                    <li><a href="#">웹사이트 판매 약관</a></li>
+                    <li><a href="#">개인정보처리약관</a></li>
+                    <li><a href="#">다이슨 글로벌 개인정보처리방침</a></li>
+                    <li><a href="#">쿠키취급방침</a></li>
+                    <li><a href="#">사업자 정보 확인</a></li>
+                </ul>
+            </section>
+            </div>
+            <section class="footer_info">
+                <div class="inner_content">
+                    <div>다이슨코리아 유한회사 대표이사: ROBERT JOHN JULIAN WEBSTER(로버트존줄리안웹스터)
+                        서울특별시 강남구 테헤란로 142, 아크플레이스 17층 .06236
+                        사업자등록번호 811-81-00675 통신판매번호 2017-서울강남-04029 사업자정보확인
+                        고객센터: 080-300-4253(수신자 부담) /1588-4253 (운영시간: 월-금 오전 9시-오후 6시) 이메일: help@kr.dyson.com
+                        호스팅 제공자 아마존웹서비스</div>
+                    <div>
+                        <h3>고객센터</h3>
+                        <p>080-300-4253 / 1588-4253</p>
+                        <p>운영시간: 월-금 오전9시-오후6시</p>
+                    </div>
+                    <div>
+                        <h3>이메일</h3>
+                        <p>help@kr.dyson.com</p>
+                    </div>
+                </div>
+            </section>
+    </footer>
 </body>
 </html>

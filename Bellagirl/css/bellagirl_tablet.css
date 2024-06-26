@@ -171,8 +171,6 @@ nav{
 .gnb:hover>li>ul{
     height: 300px;
 }
-.gnb>li>ul>li{
-}
 .gnb>li>ul>li>a{
     padding: 10px;
     padding-top: 10px;
@@ -232,7 +230,9 @@ img.bella{
     object-position: 50% 10%;
     line-height: 0;
 }
-
+.s2_1{
+    display: none;
+}
 /* s2 */
 ul.main_train{
     margin: 0 auto;
@@ -304,9 +304,6 @@ ul.main_train>li{
 .controler{
     margin-top: 20px;
 }
-
-
-
 .s3_list{
     display: flex;
     flex-wrap: nowrap;
@@ -325,8 +322,6 @@ ul.main_train>li{
     margin:0;
     /* 4n 수식으로 지정해서 일일이 마진값 안빼도 됨 */
 }
-
-
 .inner_img>p{
     position: absolute;
     z-index: 0.5;
@@ -453,7 +448,6 @@ margin-top: 140px;
     right:0;
     top: 50%;
     text-align: right;
-    
 }
 .summer_co{ 
     font-size: 57px;
@@ -485,9 +479,6 @@ button:hover{
     padding: 300px 0;
     position: relative;
     margin: 0 auto;
-}
-.s5>.inner_content{
-    
 }
 .inner_s5{
     width: 100%;
@@ -553,8 +544,7 @@ footer{
 .footer_width{
     width: 87%;
     margin: 0 auto;
-}
-    
+} 
 .online{
     height: 185px;
     background: #FF3127;
@@ -597,7 +587,6 @@ footer{
 .info_1>.footer_width>div:last-of-type>img{
     margin-left: 50px;
 }
-
 .info_2>div{
     display: flex;
     margin-top: 50px;
@@ -620,6 +609,5 @@ footer{
 }
 .info_3>p{
     text-align: center;
-
 }
 }

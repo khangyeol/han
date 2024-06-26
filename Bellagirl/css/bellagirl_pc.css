@@ -23,13 +23,12 @@ input{outline: none;}
 html{
     font-family: "Noto Sans KR", sans-serif;
     font-size: 16px;
+    overflow-x: hidden;
 }
-
 header{
     background: #FEFAEE;
     height: 170px;
 }
-
 .allcontent{
     background: #FEFAEE;
     width: 100%;
@@ -38,14 +37,12 @@ header{
     width: 1200px;
     margin: 0 auto;
 }
-
 .fixed_menu{
     z-index:1000;
     position: fixed;
     right: 30px;
     bottom: -1000px;
     transition: all 0.5s ease 0s;
-
 }
 .fixed_menu>div:nth-of-type(1){
     z-index:1000;
@@ -175,12 +172,10 @@ nav{
     display: block;
 }
 .gnb>li>ul a:hover{
-    color: #ffffff;
-    background: rgb(255, 199, 185);
+    color: #d42a2a;
+    font-weight: 800;
+    border-bottom: 2px solid #FF3127;
 }
-
-
-
 .lnb{
     display: flex;
     border:3px solid #FF3127;
@@ -218,8 +213,8 @@ nav{
    margin-top: 100px;
 }
 img.bella{
-    width: 670px;
-    height: 720px;
+    width: 34%;
+    height: 71%;
     position: absolute;
     left: 50%;
     bottom: 250px;
@@ -228,7 +223,9 @@ img.bella{
     object-position: 50% 10%;
     line-height: 0;
 }
-
+.s2_1{
+    display: none;
+}
 /* s2 */
 ul.main_train{
     margin: 0 auto;
@@ -238,7 +235,6 @@ ul.main_train{
     transition:all 1s ease 0s;
     line-height: 0;
 }
-
 ul.main_train>li{
     flex:1;
 }
@@ -265,16 +261,14 @@ ul.main_train>li{
     margin-bottom: 60px;
 }
 .bag_station{
-    width: 1200px;
+    width: 100%;
     height: 600px;
     margin: 0 auto;
     overflow: hidden;
 }
-.bag_train{
+.bag_train {
     width: 200%;
-    /* 4800px */
     height: 100%;
-    /* 600px */
     display: flex;
     transition: all 0.8s ease 0s;
 }
@@ -299,7 +293,6 @@ ul.main_train>li{
 }
 
 
-
 .s3_list{
     display: flex;
     flex-wrap: nowrap;
@@ -312,7 +305,7 @@ ul.main_train>li{
     width: calc((100% - 84px)/4);
     margin-bottom: 30px;
     /* flex: 1; */
-    /* 줄바꿈을 위해서 리스트너비 정해주기~!~!~ */
+    /* 줄바꿈을 위해서 리스트너비 정해주기 */
 }
 .type3 ul>li:nth-of-type(4n){
     margin:0;
@@ -439,14 +432,13 @@ margin-top: 140px;
     margin-top: 314px;
 }
 .summer_collection{
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 400;
     color: #ffffff;
     position: absolute;
     right:0;
     top: 50%;
     text-align: right;
-    
 }
 .summer_co{ 
     font-size: 85px; 
@@ -463,7 +455,7 @@ button{
     font-size: 25px;
     font-weight: 700;
     color: #fff;
-    width: 170px;
+    padding: 5px 60px;
     height: 58px;
     margin-top: 20px;
     cursor: pointer;
@@ -619,7 +611,6 @@ footer{
 }
 
 
-
 /* sub_s1 */
 .sub_s1{
     margin: 0 auto;
@@ -695,8 +686,6 @@ footer{
   height: 100%;
   object-fit: cover;
 }
-
-
 .sub_s4_text{
     position: absolute;
     left: 50%;
@@ -762,4 +751,183 @@ footer{
 .sub_s6_box section:last-of-type{
     background: url(../img2/bag_box3.jpg) no-repeat 50% 50% / cover;
     margin: 0;
+}
+
+/* sub2_s2 */
+.sub2_s1>div{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 30px 30px 0 30px;
+}
+.sub2_s1_1{
+    position: relative;
+}
+.sub2_s1_1 h3{
+    position: absolute;
+    left: 260px;
+    bottom: 250px;
+    font-size: 85px;
+    font-weight: 800;
+    color: rgb(67, 182, 144);
+}
+.sub2_s2{
+    height: 300px;
+}
+.sub2_s2>.inner_content{
+    width: 1400px;
+    display: flex;
+    flex: 1;
+    border: 1px solid red;
+}
+.sub2_s2 section{
+    flex: 1;
+    border: 1px solid red;
+    height: 300px;
+}
+/* sub2_s3 */
+.sub2_s3{
+    height: 1500px;
+}
+.sub2_s3 .inner_content{
+    width: 1400px;
+}
+.sub2_s3 .inner_img{
+height: 423px;
+}
+.sub2_s3 .img{
+    height: 275px;
+    object-fit: cover;
+}
+/* sub2_s4 */
+.sub2_s4{
+    height: 1000px;
+    background-color: #FEFAEE;
+    position: relative;
+}
+.sub2_s4 h3{
+    position: absolute;
+    left: 100px;
+    bottom: 50px;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+
+/* sub3_s1 */
+.sub3_s1{
+    height: 800px;
+    background: #FEFAEE;
+    font-size: 20px;
+    display: flex;
+}
+.sub3_s1 img{
+    width: 480px;
+    object-fit: cover;
+    margin-right: 200px;
+    margin-top: 60px;
+}
+.sub3_now{
+    font-family: 'billie';
+    font-size: 30px;
+    color: #37517F;
+}
+.wallet_img{
+    width: 480px;
+}
+.wallet_img ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.wallet_img img{
+    width: 110px;
+    margin-right: 18px;
+    margin-top: 5px;
+}
+.sub3_head{
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    height: 80px;
+}
+.sub3_head li{
+    margin-right: 18px;
+}
+.sub3_right {
+    padding-top: 100px;
+}
+.sub3_right h3{
+    font-size: 40px;
+    font-weight: 700;
+    color: #434343;
+}
+.sub3_right section{
+margin: 20px;
+border-bottom:0.5px solid #434343;
+margin-bottom: 20px;
+padding-bottom: 30px;
+width: 650px
+}
+.price dt{
+    float: left;
+    margin-right: 30px;
+    color: #434343;
+    font-weight: 700;
+    width: 150px;
+    height: 25px;
+}
+.price dd{
+    font-size: 19px;
+    color: #6b6b6b;
+}
+.button{
+    display: flex;
+    flex: 1;
+}
+.sub3_btn button{
+margin-right: 10px;
+font-size: 20px;
+}
+
+
+/*구매페이지 픽스드 메뉴 */
+.fixed_menu_sub{
+    z-index:1000;
+    position: fixed;
+    right: 30px;
+    bottom: 200px;
+    transition: all 0.5s ease 0s;
+}
+.fixed_menu_sub>div:nth-of-type(1){
+    z-index:1000;
+    font-size: 35px;
+    text-align: right;
+    font-weight: 900;
+    color: #FF3127;
+    letter-spacing: -2px;
+    line-height:45px;
+}
+.fixed_info_sub{                    
+    color: white;
+    background: #FF3127;
+    border-radius: 80px 0 80px 0;
+    z-index:2000;
+    padding: 20px ;
+    width: 160px;
+    height: 400px;
+    text-align: left;
+    font-size: 15px;
+}
+.fixed_info_sub>h3{
+    margin-top: 15px;
+    font-weight: 800;
+    font-size: 17px;
+}
+.fixed_sns{
+    margin-top: 30px;
+}
+.fixed_sns>a>img{
+    margin-right: 15px;
 }
